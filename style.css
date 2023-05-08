@@ -211,3 +211,163 @@ nav a:hover {
     padding-bottom: 14px;
     border-bottom: 1px solid #ccc;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news-data {
+    display: flex;
+}
+
+article .news-posted-at {
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news-comments {
+    background-color: #36a9e1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+article .news-thumb {
+    margin-top: 30px;
+}
+
+article .news-thumb img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+article .news-title {
+    margin: 25px 0px;
+    color: #000;
+    font-size: 23px;
+}
+
+article .news-resume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: #fff;
+}
+
+.fm1 {
+    background-color: #39aae1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.footer-menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer-area {
+    display: flex;
+    color: #fff;
+}
+
+.footer-areaitem {
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+footer .widget-title-text {
+    color: #fff;
+}
+
+.footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer-title {
+    font-size: 21px;
+}
+
+.footer-desc {                                                              
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-area-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #5c5c5c;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px;
+}
+
+.address {
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+.contact {
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+.latest-posts a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff77;
+}
+
+span{
+    font-size: 11px;
+    color: #39aae1;
+}
+
